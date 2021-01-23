@@ -21,7 +21,7 @@
 export default {
   data() {
     return {
-      src: "http://192.168.1.121:8081/",
+      src: "https://volodyan.github.io/vue3_iframe_postmessage_son_preview/#/",
       iframeWin: {},
       showdata: "我是父组件数据",
     };

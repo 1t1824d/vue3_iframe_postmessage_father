@@ -39,6 +39,9 @@ https://volodyan.github.io/vue3_iframe_postmessage_father_preview/#/
 
 5.脚本访问框架内容必须遵守同源策略，并且无法访问非同源的 window 对象的几乎所有属性。同源策略同样适用于子窗体访问父窗体的 window 对象。跨域通信可以通过 window.postMessage 来实现。
 
+6.注释：【postMessage是有点类似于UDP协议，就像短信，是异步的，你发信息过去，但是没有返回值的，只能内部处理完成以后再通过postMessage向外部发送一个消息，外部监听message为了让postMessage像TCP，为了体验像同步的和实现多通信互不干扰】
+
+
 Demo--Home.vue如下：
 ```
 

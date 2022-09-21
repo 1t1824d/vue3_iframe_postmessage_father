@@ -17,12 +17,7 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-### 预览页
 
-```
-https://volodyan.github.io/vue3_iframe_postmessage_father_preview/#/
-
-```
 
 ## postMessage跨域传消息
 
